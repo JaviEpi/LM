@@ -2,5 +2,5 @@
 font-family: sans-serif;  
 }
 ul{
-    display: none;
+    display: inline-block;
 }
