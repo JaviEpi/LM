@@ -39,8 +39,9 @@ nav li{
 nav li a{
     display: block;
     color: white;
-    text-align: center;
-    padding: 22px 16px;
+    font-size: 12px;
+    text-align: right;
+    padding: 24px 16px;
     text-decoration: none;
 }
 img{
@@ -50,9 +51,14 @@ img{
 }
 
 footer{
+    display: block;
     padding: 14px 16px;
     list-style: none;
+    position: fixed;
+    width: 100%;
     text-align: center;
+    bottom: 0px;
+    left: 0;
     font-size: 11px;
 }
 footer div{
@@ -74,4 +80,8 @@ footer div li a{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 15px;
+}
+
+i{
+    color: #333;
 }
