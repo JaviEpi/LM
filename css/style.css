@@ -4,3 +4,30 @@
     border: 0;
 }
 
+#cabecera-superior li{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 8px;
+}
+
+#cabecera-inferior{
+    text-align: center;
+    font-size: 11px;
+    padding: 10px;
+}
+  
+
+nav {
+    
+    padding: 25px 20px 0px 0px;
+}
+      
+#navegacion {
+    display: inline;
+    font-size: 14px;
+}
+img{
+    margin-top: 8px;
+    text-align: left;
+    width: 40px;
+}
