@@ -6,25 +6,26 @@
 }
 
 #cabecera-superior li{
-    text-align: center;
+    text-align: left;
     background: #333;
-    color: white;
     font-size: 9px;
     margin-top: 0;
     padding: 8px;
-    border-block-end: 1px solid white;
-    
+}
+
+#cabecera-superior li a{
+    text-decoration: none;
+    color: white;
 }
 
 #cabecera-inferior{
     text-align: center;
-    background: #333;
-    color: white;
-    font-size: 10px;
+    background: #566573;
+    font-size: 11px;
+    font-weight: 800;
     padding: 8px;
-    border-block-end: 1px solid white;
 }
-#nav{
+#navegacion{
    list-style-type: none;
    background: #333;
    margin: 0;
@@ -32,22 +33,26 @@
    overflow: hidden;
 }   
 
+#nav{
+    list-style-type:none; 
+    margin-left: 350px;
+}
 nav li{
     float: left;
 }
 
 nav li a{
     display: block;
-    color: white;
+    color: white ;
+    font-weight: 800;
     font-size: 11px;
-    text-align: right;
-    padding: 22px 30px;
+    padding: 45px 30px;
     text-decoration: none;
 }
 img{
-    padding: 14px 16px;
+    padding: 14px 30px;
     text-align: left;
-    width: 30px;
+    width: 300px;
 }
 
 footer{
