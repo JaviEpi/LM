@@ -9,9 +9,9 @@
     text-align: center;
     background: #333;
     color: white;
-    font-size: 11px;
+    font-size: 9px;
     margin-top: 0;
-    padding: 10px;
+    padding: 8px;
     border-block-end: 1px solid white;
     
 }
@@ -20,8 +20,8 @@
     text-align: center;
     background: #333;
     color: white;
-    font-size: 11px;
-    padding: 10px;
+    font-size: 10px;
+    padding: 8px;
     border-block-end: 1px solid white;
 }
 #nav{
@@ -39,20 +39,21 @@ nav li{
 nav li a{
     display: block;
     color: white;
-    font-size: 12px;
+    font-size: 11px;
     text-align: right;
-    padding: 24px 16px;
+    padding: 22px 30px;
     text-decoration: none;
 }
 img{
     padding: 14px 16px;
     text-align: left;
-    width: 35px;
+    width: 30px;
 }
 
 footer{
     display: block;
     padding: 14px 16px;
+    color: #333;
     list-style: none;
     position: fixed;
     width: 100%;
@@ -81,6 +82,7 @@ footer div li a{
     text-decoration: none;
     font-size: 15px;
 }
+
 
 i{
     color: #333;
