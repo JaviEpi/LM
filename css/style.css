@@ -5,17 +5,27 @@
     border: 0;
 }
 
-#cabecera-superior li{
+#cabecera-superior{
     text-align: left;
     background: #333;
+    display: block;
+}
+
+#cabecera-superior li{
+    display: inline;
+    text-align: left;
     font-size: 9px;
-    margin-top: 0;
-    padding: 8px;
 }
 
 #cabecera-superior li a{
     text-decoration: none;
     color: white;
+}
+
+#cabecera-superior li a i{
+    display: inline;
+    color: white;
+    padding: 0;
 }
 
 #cabecera-inferior{
@@ -46,7 +56,7 @@ nav li a{
     color: white ;
     font-weight: 800;
     font-size: 11px;
-    padding: 45px 30px;
+    padding: 42px 30px;
     text-decoration: none;
 }
 img{
@@ -56,10 +66,8 @@ img{
 }
 
 footer{
-    display: block;
+    display: inline;
     padding: 14px 16px;
-    color: #333;
-    list-style: none;
     position: fixed;
     width: 100%;
     text-align: center;
@@ -67,6 +75,7 @@ footer{
     left: 0;
     font-size: 11px;
 }
+
 footer div{
     padding: 14px 16px;
     text-align: left;
@@ -81,13 +90,11 @@ footer div li{
 }
 
 footer div li a{
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    display: inline;
+    margin: 40px;
+    padding: 0;
     font-size: 15px;
 }
-
 
 i{
     color: #333;
