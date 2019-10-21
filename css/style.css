@@ -1,4 +1,5 @@
 * {
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
@@ -6,14 +7,22 @@
 
 #cabecera-superior li{
     text-align: center;
+    background: #333;
+    color: white;
     font-size: 11px;
-    margin-top: 8px;
+    margin-top: 0;
+    padding: 10px;
+    border-block-end: 1px solid white;
+    
 }
 
 #cabecera-inferior{
     text-align: center;
+    background: #333;
+    color: white;
     font-size: 11px;
     padding: 10px;
+    border-block-end: 1px solid white;
 }
 #nav{
    list-style-type: none;
