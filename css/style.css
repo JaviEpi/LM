@@ -28,6 +28,7 @@ header{
 }
 #rrss a{
     text-decoration: none;
+    color: white;
 }
 #idiomas{
     text-align: right;
@@ -106,6 +107,6 @@ footer div li a{
     color: #333;
 }
 
-i{
-    color:#333
+footer a{
+    color: #333;
 }
