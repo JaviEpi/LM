@@ -19,7 +19,6 @@ header{
     font-size: 10px;
 }
 #numero a{
-    text-decoration: none;
     color: white;
 }
 #rrss{
@@ -66,7 +65,7 @@ nav li a{
     color: white ;
     font-weight: 800;
     font-size: 11px;
-    padding: 42px 30px;
+    padding: 45px 30px;
     text-decoration: none;
 }
 img{
