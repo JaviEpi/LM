@@ -4,28 +4,37 @@
     padding: 0;
     border: 0;
 }
-
-#cabecera-superior{
-    text-align: left;
+header{
     background: #333;
-    display: block;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-
 #cabecera-superior li{
     display: inline;
-    text-align: left;
-    font-size: 9px;
 }
-
-#cabecera-superior li a{
+#numero{
+    text-align: left;
+    font-size: 10px;
+}
+#numero a{
     text-decoration: none;
     color: white;
 }
-
-#cabecera-superior li a i{
-    display: inline;
+#rrss{
+    text-align: center;
+    font-size: 10px;
+}
+#rrss a{
+    text-decoration: none;
+}
+#idiomas{
+    text-align: right;
+}
+#idiomas a{
     color: white;
-    padding: 0;
+    font-size: 10px;
 }
 
 #cabecera-inferior{
@@ -66,10 +75,9 @@ img{
 }
 
 footer{
-    display: inline;
+    width: 100%;
     padding: 14px 16px;
     position: fixed;
-    width: 100%;
     text-align: center;
     bottom: 0px;
     left: 0;
@@ -90,12 +98,14 @@ footer div li{
 }
 
 footer div li a{
-    display: inline;
     margin: 40px;
     padding: 0;
     font-size: 15px;
 }
+#footer{
+    color: white;
+}
 
 i{
-    color: #333;
+    color:white;
 }
