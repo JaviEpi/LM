@@ -26,10 +26,14 @@ footer{
 
 
 #cabecera-superior{
+    background: #282828;
     text-align: center;
+    margin: 8px;
 }
 #cabecera-inferior{
+    background: #282828;
     text-align: center;
+    margin: 8px #282828;
 }
 
 #cabecera-superior li{
@@ -47,8 +51,7 @@ nav{
 }
 #nav li{
     list-style: none;
-    padding: 5px;
-    text-align: left;
+    padding: 8px;
     font-size:12px;
     display: inline-block;
 }
