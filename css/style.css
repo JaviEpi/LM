@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
     font-family: sans-serif;
 }
 
@@ -19,6 +18,7 @@ footer{
 
 #cabecera{
     background: #282828;
+    font-size: 11px;
     color: #ffffff;
     text-align: center;
 }
@@ -31,7 +31,7 @@ footer{
 
 nav{
     background: #282828;
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
     left: 0;
     bottom: 0;
@@ -40,7 +40,6 @@ nav{
 #nav li{
     list-style: none;
     padding: 8px;
-    font-size:12px;
     display: inline-block;
 }
 #nav a{
