@@ -48,19 +48,18 @@ nav{
 
 #logo{
     width: 15%;
-    height: auto;
-    margin-left: 38.3%;
+    margin-left: 78vh;
 }
 
 #logo_1{
     width: 4%; 
-    margin-left: 0.5%;
-    margin-bottom: 10px;
+    margin-left: 1vh;
+    margin-bottom: 1vh;
 }
 
 #logo_2{
     width: 4%;
-    margin-bottom: 10px;
-    margin-left: 37.1%;
+    margin-bottom: 1vh;
+    margin-left: 77vh;
 }
 
