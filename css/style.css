@@ -1,17 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    
     font-family: sans-serif;
 }
-header, footer, nav{
-    border:1px solid black;
-    display: block;
-}
-header{
-    background: #282828;
-    color: #ffffff;
-    font-size: 11px;
-}
+
+
 footer{
     background: #282828;
     color: #ffffff;
@@ -23,24 +17,18 @@ footer{
     text-align: center;
 }
 
-
-
-#cabecera-superior{
+#cabecera{
     background: #282828;
+    color: #ffffff;
     text-align: center;
-    margin: 8px;
-}
-#cabecera-inferior{
-    background: #282828;
-    text-align: center;
-    margin: 8px #282828;
 }
 
-#cabecera-superior li{
-    list-style: none;
-    padding: 5px;
-    display: inline-block;
+#logos{
+    background: #282828;
+    border: 1px solid #576574;
 }
+
+
 nav{
     background: #282828;
     font-size: 11px;
@@ -62,5 +50,17 @@ nav{
 #logo{
     width: 15%;
     height: auto;
+    margin-left: 38.3%;
+}
+
+#logo_1{
+    width: 4%; 
+    margin-left: 0.5%;
+}
+
+#logo_2{
+    width: 4%;
+    margin-bottom: 10px;
+    margin-left: 37.1%;
 }
 
