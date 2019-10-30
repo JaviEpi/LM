@@ -9,7 +9,6 @@ footer{
     background: #282828;
     color: #ffffff;
     font-size: 11px;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -39,12 +38,11 @@ nav{
 }
 #nav li{
     list-style: none;
-    padding: 10px;
+    padding: 8px;
     display: inline-block;
 }
 #nav a{
     color: #ffffff;
-    padding: 30px;
 }
 
 #logo{
