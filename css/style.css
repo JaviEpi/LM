@@ -47,14 +47,14 @@ nav{
 }
 
 #logo{
-    width: 15%;
+    display: inline-block;
     margin-left: 37.5%;
-    margin-top: auto;
     margin-right: auto;
-    margin-bottom: auto;
+    width: 15%;
 }
 
 #logo_1{
+    display: inline-block;
     width: 4%;
     margin-top: auto;
     margin-right: auto; 
