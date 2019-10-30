@@ -49,10 +49,15 @@ nav{
 #logo{
     width: 15%;
     margin-left: 37.5%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
 }
 
 #logo_1{
-    width: 4%; 
+    width: 4%;
+    margin-top: auto;
+    margin-right: auto; 
     margin-left: 0.8%;
     margin-bottom: 0.8%;
 }
@@ -62,5 +67,7 @@ nav{
     margin-bottom: 0.8%;
     margin-left: 37%;
     margin-right: auto;
+    margin-top: auto;
+    
 }
 
