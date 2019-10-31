@@ -38,11 +38,12 @@ nav{
 }
 #nav li{
     list-style: none;
-    padding: 8px;
+    padding: 10px;
     display: inline-block;
 }
 #nav a{
     color: #ffffff;
+    padding: 30px;
 }
 
 #logo{
