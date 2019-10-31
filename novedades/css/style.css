@@ -74,3 +74,16 @@ section{
     padding: 10px;
 }
 
+#rrss{
+    margin: 10px;
+}
+#rrss li{
+    display: inline;
+    list-style: none;
+    padding: 40px;
+}
+
+#rrss a{
+    color: #ffffff;
+    font-size: 25px;
+}

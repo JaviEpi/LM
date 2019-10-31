@@ -69,6 +69,20 @@ nav{
     margin-left: 37.7%;
     margin-right: auto;
     margin-top: auto;
-    
 }
+
+#rrss{
+    margin: 10px;
+}
+#rrss li{
+    display: inline;
+    list-style: none;
+    padding: 40px;
+}
+
+#rrss a{
+    color: #ffffff;
+    font-size: 25px;
+}
+
 
