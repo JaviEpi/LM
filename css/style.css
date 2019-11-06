@@ -37,7 +37,7 @@ body{
     transition: all 1000ms;
 }
 .header-content .image{
-    margin-left: 35px;
+    margin: auto auto auto 35px;
     height: 200px;
     width: 261.6px;
 }
