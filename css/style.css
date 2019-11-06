@@ -21,10 +21,7 @@ body{
     filter: blur(0px);
     -webkit-filter: blur(0px);
 }
-.header:hover .header-content{
-    filter: blur(2px);
-    -webkit-filter: blur(1px);
-}
+
 .header-content{
     position: absolute;
     z-index: 1;
