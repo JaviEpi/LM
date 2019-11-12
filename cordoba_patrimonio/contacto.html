@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Conatcto</title>
+    <!--link para obtener imagenes-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Link CSS-->
     <link rel="stylesheet" href="css/style_contacto.css">
 </head>
@@ -24,20 +26,16 @@
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
-    <h2>Contacto</h2>
+
     <section>
-        <h3>Formulario</h3>
+        <h2 class="titulo">Contacto</h2>
         <form name="formulario" action="mailto:a19eploja@iesgrancapitan.org" method="get">
-          <p><label>Nombre: <input type="text" name="nombre" maxlength="15"></label></p>
-          <p><label>Edad: <input type="number" name="edad"></label></p>
-          <p><label>Correo: <input type="email" name="correo"></label></p>
-          <p><label>Telefono: <input type="tel" name="telefono"></label></p>
-          <p><label>Sitio web: <input type="url" name="sitioweb"></label></p>
-          <p><input type="submit" value="Enviar"></p>
-        </form>
-    </section>
-    <section>
-        <form name="formulario" action="mailto:a19eploja@iesgrancapitan.org" method="get">
+            <p><label>Nombre: <input type="text" name="nombre" maxlength="15"></label></p>
+            <p><label>Apellidos <input type="text" name="apellidos" maxlength="50"></label></p>
+            <p><label>Edad: <input type="number" name="edad"></label></p>
+            <p><label>Correo: <input type="email" name="correo"></label></p>
+            <p><label>Telefono: <input type="tel" name="telefono"></label></p>
+            <p><label>Sitio web: <input type="url" name="sitioweb"></label></p>
             <p><label for="listado">Nacionalidad: </label>
                 <select name="nacionalidad" id="listado">
                     <option value="1">Española</option>
@@ -46,8 +44,44 @@
                     <option value="4">Alemana</option>
                 </select>
             </p>
+            <p><label>Mensaje: <input type="text" name="mensaje" maxlength="240"></label></p>
+          
             <p><input type="submit" value="Enviar"></p>
         </form>
     </section>
+    <footer>
+            <div class="icon-text-text">
+                <ul class="social">
+                  <li>
+                    <a href="mailto:a19eploja@iesgrancapitan.org" target="_blank">
+                      <i class="fa fa-envelope-o"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/" target="_balnk">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.twitter.com/javiepi" target="_blank">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                      <i class="fa fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.instagram.com/JaviEpi17" target="_blank">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+        </footer>
+        <footer>
+          <p id="footer">Javier Epifanio | LM-Web &copy;2019 - All rights reserved.</p>
+        </footer>
 </body>
 </html>
