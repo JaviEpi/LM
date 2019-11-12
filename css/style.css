@@ -6,21 +6,14 @@ body{
 }
 .header::after{
     content: '';
-    height: 100vh;
+    height: 92.2vh;
     width: 100%;
     background-image: url(../img/header_bg.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     display: block;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
     transition: all 1000ms;
 }
-.header:hover::after{
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-}
+
 
 .header-content{
     position: absolute;
