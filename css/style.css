@@ -10,6 +10,7 @@ body{
     width: 100%;
     background-image: url(../img/header_bg.jpg);
     background-size: cover;
+    background-position: center;
     display: block;
     transition: all 1000ms;
 }
