@@ -5,20 +5,20 @@
 }
 .titulo{
     font-size: 4vw;
-    background: yellow;
-    color: #ffffff;
+    background: orangered;
+    color: black;
     padding: 20px;
-    border: 10px solid red;
+    border: 10px solid #232323;
     margin: 50px;
 }
 
 .titulo:hover{
     font-size: 60px;
     color: black;
-    background: yellow;
+    background: orangered;
     padding: 10px;
-    border: 50px solid red;
-    margin: 25px;
+    border: 25px solid #232323;
+    margin: 50px;
 }
 
 p.p:nth-child(odd){
@@ -28,32 +28,14 @@ p.p:nth-child(odd){
     color: #ffffff;
 }
 p.p:nth-child(even){
-    padding: 0;
-    margin: 0 10px ;
+    padding: 10px;
+    margin:0 10px ;
     background: #ffffff;
     text-align: center;
 }
 .bandera1{
-    margin-top: 100px;
+    margin-top: 50px;
 }
-.bandera{
-    margin-top: 100px;
-}
-.bandera p:nth-child(odd){
-    padding: 10px;
-    margin: 0 10px;
-    background: red;
-    color: #ffffff;
-}
-
-.bandera p:nth-child(even){
-    padding: 10px;
-    margin: 0 10px;
-    background: yellow;
-    color: black;
-    text-align: center;
-}
-
 .footer{
     text-align: center;
 }
