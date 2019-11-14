@@ -48,5 +48,8 @@ nav{
     color: #ffffff;
     padding: 30px;
 }
-
+.logo{
+    height: 30px;
+    margin-left: -550px;
+}
 
