@@ -25,7 +25,6 @@ body{
     margin-left: -170px;
     text-align: center;
     width: 350px;
-    transition: all 1000ms;
 }
 .header-content .image{
     margin: 25% auto auto 28px;
@@ -51,6 +50,6 @@ nav{
 }
 .logo{
     width: auto;
-    height: 30px;
+    height: 25px;
 }
 
