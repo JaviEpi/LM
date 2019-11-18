@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    margin: 10px;
+    font-size: 25px;
+}
+
+nav{
+    margin: 10px;
+}
+div{
+    margin: 20px;
+    border: 15px solid green;
+    width: 30%;
+} 
+
+div section{
+    padding: 20px;
+    border: 10px dotted gray ;
+    overflow: visible;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+}
