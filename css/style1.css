@@ -133,3 +133,38 @@ nav ul li a .quinto{
     margin-top: 32%;
     margin-bottom: 5%;
 }
+
+.barra-social{
+    position: fixed;
+    left: 0px;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+    align-items:flex-end;
+    z-index: 100%;
+}
+
+.icono-primero, .icono-segundo, .icono-tercero, .icono-cuarto{
+    color: #fff;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+
+.icono-primero{
+    background: #2E406E;
+    border-radius: 0 1rem 0 0;
+}
+.icono-segundo{
+    background: #55acee;
+}
+.icono-tercero{
+    background: #3F60A5;
+}
+.icono-cuarto{
+    background: #0077B5;
+    border-radius: 0 0 1rem 0;
+}
