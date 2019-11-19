@@ -1,9 +1,15 @@
 *{
-    padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    font-family: sans-serif;
 }
-header, section, footer, aside, nav, article, hgroup{
+body{
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/header_bg.jpg);
+    background-size: cover;
+    background-position: center;
     display: block;
 }
 .header-nav{
@@ -107,20 +113,23 @@ nav ul li a .cuarto{
 nav ul li a .quinto{
     background: #37a4d9;
 }
-footer{
+
+.contenido{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    top: 10%;
+    left: 50%;
+    margin-top: 105px;
+    margin-left: -170px;
     text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 10px;
-    left: 0;
+    width: 350px;
 }
-.icon-text-text{
-    margin: 20px;
-}
-footer li {
-    display: inline;
-}
-footer a{
-    text-decoration: none;
-    color: #232323  ;
+
+.imagen{
+    width: 50%;
+    align-items: center;
+    margin-left:8% ;
+    margin-top: 32%;
+    margin-bottom: 5%;
 }
