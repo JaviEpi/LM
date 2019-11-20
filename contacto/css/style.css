@@ -70,7 +70,7 @@ nav > ul li a{
 }
 
 nav > ul > li > ul > li a:hover{
-    background: #5da5a2;
+    background: #5da5a2;   
 }
 
 nav > ul > li > a span{
@@ -95,6 +95,7 @@ nav > ul > li > a span .icon{
 
 nav > ul > li > a:hover > span {
     top: 0;
+    opacity: 93%;
 }
 
 /*Colores*/
@@ -122,6 +123,7 @@ form{
     width: 450px;
     margin: auto;
     background: rgba(0, 0, 0, .4);
+    color: #fff;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
