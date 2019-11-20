@@ -7,29 +7,42 @@
     <title>Conatcto</title>
     <!--Link CSS-->
     <link rel="stylesheet" href="css/style.css">
+    <!--Link iconos-->
+    <script src="https://kit.fontawesome.com/6b75c93575.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <div id="navegacion">
+    <header class="header-nav">
+        <nav>
             <ul id="nav">
-                <li><a href="/index.html">INICIO</a></li>
-                <li><a href="/novedades/index.html">NOVEDADES</a></li>
-                <li><a href="/portal/index.html" target="_blank">PORTAL</a><li>
-                <li><a href="/practicas/index.html" target="_blank">PRÁCTICAS</a></li>
-                <li><a href="index.html">CONTACTO</a></li>
-                <li><a href="/sobre_mi/index.html">SOBRE MÍ</a></li>
+                <li><a href="/novedades/index.html"><span class="primero"><i class="icon fas fa-newspaper"></i></span> NOVEDADES</a></li>
+                <li><a href="/portal/index.html" target="_blank"><span class="segundo"><i class="icon fas fa-suitcase"></i></span> PROYECTOS</a>
+                    <ul>
+                        <li><a href="/portal/cordoba_patrimonio/index.html" target="_blank">Turismo Córdoba</a></li>
+                    </ul>
+                </li>
+                <li><a href="/practicas/index.html" target="_blank"><span class="tercero"><i class="icon far fa-file-alt"></i></span> PRÁCTICAS</a>
+                    <ul>
+                        <li><a href="/practicas/tema_1/index.html" target="_blank">Tema 1</a></li>
+                        <li><a href="/practicas/tema_2/index.html" target="_blank">Tema 2</a></li>
+                        <li><a href="/practicas/tema_3/index.html" target="_blank">Tema 3</a></li>
+                        <li><a href="/practicas/tema_4/index.html" target="_blank">Tema 4</a></li>
+                         <!--<li><a href="">TEMA 5</a></li>-->
+                    </ul>
+                </li>
+                <li><a href="/contacto/index.html"><span class="cuarto"><i class="icon fas fa-envelope"></i></span> CONTACTO</a></li>
+                <li><a href="/sobre_mi/index.html"><span class="quinto"><i class="icon fas fa-address-card"></i></span> SOBRE MÍ</a></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
     <section>
-        <header><h1>Contacto</h1></header>
-        <form name="formulario" action="mailto:a19eploja@iesgrancapitan.org" method="get">
-          <p><label>Nombre: <input type="text" name="nombre" maxlength="15"></label></p>
-          <p><label>Edad: <input type="number" name="edad"></label></p>
-          <p><label>Correo: <input type="email" name="correo"></label></p>
-          <p><label>Telefono: <input type="tel" name="telefono"></label></p>
-          <p><label>Sitio web: <input type="url" name="sitioweb"></label></p>
-          <p><input type="submit" value="Enviar"></p>
+        <form name="" action="mailto:a19eploja@iesgrancapitan.org" method="get">
+            <h2>CONTACTO</h2>
+            <label>Nombre: <input type="text" name="Nombre" maxlength="70" placeholder="Nombre"></label>
+            <label>Correo: <input type="email" name="correo" placeholder="Correo"></label>
+            <label>Telefono: <input type="tel" name="telefono" placeholder="Telefono"></label>
+            <label>Mensaje: <textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea></label>
+            <input type="submit" value="Enviar" id="boton" maxlength="240">
         </form>
       </section>
 </body>
