@@ -117,8 +117,10 @@ nav ul li a .quinto{
 
 .contenido{
     position: absolute;
-    z-index: 1;
+    z-index: 100;
     color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .955rem;
     top: 10%;
     left: 50%;
     margin-top: 105px;
