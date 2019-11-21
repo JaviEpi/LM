@@ -169,3 +169,9 @@ textarea{
         width: 100%;
     }
 }
+
+@media(max-width:480){
+    nav{
+        width: 100%;
+    }
+}
