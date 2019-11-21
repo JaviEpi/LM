@@ -166,6 +166,6 @@ textarea{
 
 @media (max-width:480px){
     form{
-        width: 80%;
+        width: 100%;
     }
 }
