@@ -116,10 +116,10 @@ nav ul li a .quinto{
 }
 
 .contenido{
-    position: absolute;
+    position: relative;
     z-index: 100;
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     font-size: .755rem;
     top: 10%;
     left: 50%;
@@ -188,3 +188,4 @@ nav ul li a .quinto{
     padding-left: 3rem;
     border-radius: 0 1rem 1rem 0;
 }
+
