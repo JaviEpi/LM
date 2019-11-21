@@ -59,8 +59,8 @@ nav > ul li a{
     position: relative;
     text-align: center;
     text-decoration: none;
-    font-size: 1.125rem;
-    font-family: sans-serif;
+    font-size: 0.8125rem;
+    font-family: Verdana, Tahoma, sans-serif;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
