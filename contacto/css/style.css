@@ -170,7 +170,7 @@ textarea{
     }
 }
 
-@media(max-width:700){
+@media(max-width:580){
     nav{
         width: 100%;
     }
