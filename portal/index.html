@@ -6,10 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portal LM | Web</title>
     <!--Link CSS-->
-    <link rel="stylesheet" href="css/jquery.pagepiling.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/superslides.css">
 </head>
 <body>
-    
+    <header class="header-nav">
+        <nav>
+            <ul id="nav">
+                <li>
+                    <a href="/novedades/index.html"><span class="primero"></span> TURISMO CÓRDOBA</a>
+                        <ul>
+                            <li><a href="cordoba_patrimonio/mezquita/mezquita.html">La Mezquita</a></li>
+                            <li><a href="cordoba_patrimonio/los_patios/los_patios.html" >Los Patios</a></li>
+                            <li><a href="cordoba_patrimonio/medina_azahara/medina_azahara.html" >Medina Azahara</a></li>
+                            <li><a href="cordoba_patrimonio/casco_historico/casco_historico.html">Casco Histórico</a></li>
+                            <!--<li><a href="">TEMA 5</a></li>-->
+                        </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="slides">
+        <ul class="slides-container">
+            <li>
+                <a href="cordoba_patrimonio/mezquita/mezquita.html">
+                    <img src="img/mezquita.jpg" alt="Mezquita de Córdoba">
+                </a>
+                <p>La Mezquita</p>
+            </li>
+            <li>
+                <a href="cordoba_patrimonio/los_patios/los_patios.html">
+                    <img src="img/los_patios.jpg" alt="">
+                </a>
+                <p>Los Patios</p>
+            </li>
+            <li>
+                <a href="cordoba_patrimonio/medina_azahara/medina_azahara.html">
+                    <img src="img/medina_azahara.jpg" alt="">  
+                </a>
+                <p>Medina Azahara</p>
+            </li>
+            <li>
+                <a href="cordoba_patrimonio/casco_historico/casco_historico.html">
+                    <img src="img/casco_historico.jpg" alt="">
+                </a>
+                <p>Casco Histórico</p>
+            </li>
+        </ul>
+
+        <nav class="slides-navigation">
+            <a href="#" class="next">&#62;</a>
+            <a href="#" class="prev">&#60;</a>
+        </nav>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.superslides.js"></script>
 </body>
 </html>
