@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #079992;
+}
+
+body{
+    margin: 10px;
+    background: #f1c40f;
+    padding: 10px;
+    max-width: 40%;
+}
+
+.header h1{
+    background: #ffeaa7;
+    color: #e17055;
+}
+
+.seccion p , .footer , .footer a{
+    background: #ffeaa7 ;
+    color: #f0932b;
+}
