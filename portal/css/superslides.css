@@ -99,7 +99,7 @@ nav ul li a .primero{
   display: none;
 }
 #slides .scrollable {
-  *zoom: 1;
+  zoom: 1;
   position: relative;
   top: 0;
   left: 0;
@@ -154,6 +154,6 @@ p{
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 25px;
   text-align: center;
-  margin-top: 40%;
+  margin-top: 85vh;
   color: #ffffff;
 }
