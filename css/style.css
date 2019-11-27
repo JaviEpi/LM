@@ -1,104 +1,133 @@
-body{
+*{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url(/img/header_bg4.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
 }
-
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0 100px;
-    background: #262626;
+body{
+    content: '';
+    height: 100vh;
     width: 100%;
-    box-sizing: border-box;
+    background-image: url(../img/header_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+.header-nav{
+    width: 100%;
+}
+nav{
+    width: 100%;
 }
 
-header .logo{
-    color: #fff;
-    height: 40px;
-    line-height: 50px;
-    font-size: 24px;
-    float: left;
-    font-weight: bold;
+nav ul{
+    list-style: none;
 }
 
-header nav{
-    float: right;
-}
-
-header nav ul{
+nav > ul {
+    display: table;
+    overflow: hidden;
+    width: 100%;
     margin: 0;
     padding: 0;
-    display: flex;
-}
-
-header nav ul li{
-    list-style: none;
+    background: #000;
     position: relative;
 }
 
-header nav ul li.sub-menu:before{
-    content: '\f0dd';
-    font-family: fontAwesome;
-    position: absolute;
-    line-height: 50px;
-    color: #fff;
-    right: 5px;
-
+nav > ul li{
+    display: table-cell;
 }
 
-header nav ul li.active.sub-menu:before{
-    content: '\f0de';
-
+/*Submenu*/
+nav > ul > li:hover > ul{
+    display: block;
 }
-
-header nav ul li ul{
-    position: absolute;
+nav > ul > li > ul{
+    display: block;
+    background: #000;
     left: 0;
-    background: #333;
+    right: 0;
+}
+
+nav > ul > li > ul{
     display: none;
 }
 
-header nav ul li.active ul{
-    display: block;
-}
-
-header nav ul li ul li{
-    display: block;
-    width: 200px;
-}
-
-header nav ul li a{
-    height: 50px;
-    line-height: 50px;
-    padding: 0 20px;
+nav > ul li a{
     color: #fff;
     display: block;
+    line-height: 20px;  
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li > ul > li a:hover{
+    background: #5da5a2;
+}
+
+nav > ul > li > a span{
+    background: #174459;
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: -55px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+nav > ul > li > a span .icon{
+    display: block;
+    line-height: 60px;
+}
+
+nav > ul > li > a:hover > span {
+    top: 0;
+}
+
+/*Colores*/
+
+nav ul li a .primero{
+    background: #0e5061;
+}
+nav ul li a .segundo{
+    background: #5da5a2;
+}
+nav ul li a .tercero{
+    background: #f25724;
+}
+nav ul li a .cuarto{
+    background: #174459;
+}
+nav ul li a .quinto{
+    background: #37a4d9;
 }
 
 .contenido{
-    position: relative;
-    z-index: 100;
+    position: absolute;
+    z-index: 1;
     color: #fff;
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 0.9rem;
     top: 10%;
     left: 50%;
-    margin-top: 10.625rem ;
-    margin-left: -10.625rem;
+    margin-top: 105px;
+    margin-left: -170px;
     text-align: center;
-    width: 21.875rem;
+    width: 350px;
 }
 
-
-
 .imagen{
-    width: 40%;
+    width: 50%;
     align-items: center;
     margin-left:8% ;
     margin-top: 32%;
@@ -112,8 +141,8 @@ header nav ul li a{
     display: flex;
     flex-direction: column;
     font-size: 1.7rem;
-    align-items:flex-start;
-    z-index: 100;
+    align-items:flex-end;
+    z-index: 100%;
 }
 
 .icono-primero, .icono-segundo, .icono-tercero, .icono-cuarto{
@@ -123,7 +152,6 @@ header nav ul li a{
     display: flex;
     transition: all .5s;
 }
-
 
 .icono-primero{
     background: #2E406E;
@@ -138,21 +166,4 @@ header nav ul li a{
 .icono-cuarto{
     background: #0077B5;
     border-radius: 0 0 1rem 0;
-}
-
-.icono-primero:hover{
-    padding-left: 3rem;
-    border-radius: 0 1rem 1rem 0;
-}
-.icono-segundo:hover{
-    padding-left: 3rem;
-    border-radius: 0 1rem 1rem 0;
-}
-.icono-tercero:hover{
-    padding-left: 3rem;
-    border-radius: 0 1rem 1rem 0;
-}
-.icono-cuarto:hover{
-    padding-left: 3rem;
-    border-radius: 0 1rem 1rem 0;
 }

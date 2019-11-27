@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javier Epifanio | Web</title>
+    <!--Link CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Link iconos-->
+    <script src="https://kit.fontawesome.com/6b75c93575.js" crossorigin="anonymous"></script>
+    <!--link favicon-->
+    <link rel="icon" type="image/png" href="/img/logo1.png">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="img/logo.png" alt="" class="logo"> </div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/novedades/index.html">Novedades</a></li>
+                <li class="sub-menu"><a href="#">Proyectos</a>
+                    <ul>
+                        <li><a href="/portal/cordoba_patrimonio/index.html">Turismo Córdoba</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu"><a href="#">Prácticas</a>
+                    <ul>
+                        <li><a href="/practicas/tema_1/index.html">Tema 1</a></li>
+                        <li><a href="/practicas/tema_2/index.html">Tema 2</a></li>
+                        <li><a href="/practicas/tema_3/index.html">Tema 3</a></li>
+                        <li><a href="/practicas/tema_4/index.html">Tema 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="/contacto/index.html">Contacto</a></li>
+                <li><a href="/sobre_mi/index.html">Sobre mí</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenido">
+        <div class="texto">
+            <img class="imagen" src="img/logo1.png" alt="logo" title="logo JaviEpi">
+            <h3 class="title">JaviEpi Design Web</h3>
+            <p class="text">Estudiante de Desarrollo de Aplicaciones Web</p>  
+        </div>
+    </div>
+    <div class="barra-social">
+        <a href="https://www.facebook.com/JavierEpifanioLopez" target="_blank"><i class="icono-primero fab fa-facebook-square" title="Facebook"></i></a>
+        <a href="https://www.instagram.com/javiepi17" target="_blank" title="Instagram"><i class="icono-tercero fab fa-instagram"></i></a>
+        <a href="https://twitter.com/JaviEpi" target="_blank" title="Twitter"><i class="icono-segundo fab fa-twitter-square"></i></a>
+        <a href="www.linkedin.com/in/JavierEpifanioLopez" target="_blank" title="Linkedin"><i class="icono-cuarto fab fa-linkedin"></i></a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+                $('nav').toggleClass('acive')
+            })
+            $('ul li').click(function(){
+                $(this).siblings().removeClass('active');
+                $(this).toggleClass('active');
+
+            })
+        })
+    </script>
+</body>
+</html>
