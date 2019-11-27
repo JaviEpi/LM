@@ -6,18 +6,30 @@
 
 h1{
     font-size: 25px;
-    margin: 10px;
+    margin: 10px 0 0 10px;
+}
+h2{
+    font-size: 18px;
+    margin: 20px 0 0 10px;
 }
 
+h3{
+    font-size: 17px;
+    margin: 20px 0 0 10px;
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
 p{
-    font-size: 15px;
+    font-size: 14px;
     margin: 10px;
 }
 
 img{
     display: block;
-    margin: 35px;
-    width: 30%;
+    margin: 20px;
+    width: 25%;
     -webkit-filter: invert();
     -moz-filter: invert();
     -o-filter: invert();
