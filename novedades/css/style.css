@@ -3,6 +3,9 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+body{
+    background: #ecf0f1;
+}
 header, section, footer, aside, nav, article, hgroup{
     display: block;
 }
