@@ -1,14 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 body{
     content: '';
     height: 100vh;
     width: 100%;
-    background-image: url(../img/header_bg.jpg);
+    max-width: 100vw;
+    max-height: 100vh;
+    background: url(../img/header_bg4.jpg);
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     display: block;
 }
@@ -27,6 +29,7 @@ nav > ul {
     display: table;
     overflow: hidden;
     width: 100%;
+    max-width: 100%;
     margin: 0;
     padding: 0;
     background: #000;
@@ -55,12 +58,13 @@ nav > ul > li > ul{
 nav > ul li a{
     color: #fff;
     display: block;
-    line-height: 20px;  
-    padding: 20px;
+    line-height: 1.575rem;  
+    padding: 1.125rem;
     position: relative;
     text-align: center;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 0.8125rem;
+    font-family: Verdana, Tahoma, sans-serif;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -79,7 +83,7 @@ nav > ul > li > a span{
     height: 100%;
     left: 0;
     position: absolute;
-    top: -55px;
+    top: -57px;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -94,6 +98,7 @@ nav > ul > li > a span .icon{
 
 nav > ul > li > a:hover > span {
     top: 0;
+    opacity: 93%;
 }
 
 /*Colores*/
@@ -115,9 +120,11 @@ nav ul li a .quinto{
 }
 
 .contenido{
-    position: absolute;
-    z-index: 1;
+    position: relative;
+    z-index: 100;
     color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: .755rem;
     top: 10%;
     left: 50%;
     margin-top: 105px;
@@ -127,7 +134,7 @@ nav ul li a .quinto{
 }
 
 .imagen{
-    width: 50%;
+    width: 40%;
     align-items: center;
     margin-left:8% ;
     margin-top: 32%;
@@ -141,8 +148,8 @@ nav ul li a .quinto{
     display: flex;
     flex-direction: column;
     font-size: 1.7rem;
-    align-items:flex-end;
-    z-index: 100%;
+    align-items:flex-start;
+    z-index: 100;
 }
 
 .icono-primero, .icono-segundo, .icono-tercero, .icono-cuarto{
@@ -152,6 +159,7 @@ nav ul li a .quinto{
     display: flex;
     transition: all .5s;
 }
+
 
 .icono-primero{
     background: #2E406E;
@@ -167,3 +175,21 @@ nav ul li a .quinto{
     background: #0077B5;
     border-radius: 0 0 1rem 0;
 }
+
+.icono-primero:hover{
+    padding-left: 3rem;
+    border-radius: 0 1rem 1rem 0;
+}
+.icono-segundo:hover{
+    padding-left: 3rem;
+    border-radius: 0 1rem 1rem 0;
+}
+.icono-tercero:hover{
+    padding-left: 3rem;
+    border-radius: 0 1rem 1rem 0;
+}
+.icono-cuarto:hover{
+    padding-left: 3rem;
+    border-radius: 0 1rem 1rem 0;
+}
+
