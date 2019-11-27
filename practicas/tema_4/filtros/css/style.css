@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    margin: 10px;
+}
+
+p{
+    font-size: 15px;
+    margin: 10px;
+}
+
+img{
+    display: block;
+    margin: 35px;
+    width: 30%;
+    -webkit-filter: grayscale();
+    -moz-filter: grayscale();
+    -o-filter: grayscale();
+    -ms-filter: grayscale();
+    filter: grayscale(1);
+}
+
+footer{
+    text-align: center;
+}
