@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    margin: 10px 0 0 10px;
+}
+h2{
+    font-size: 18px;
+    margin: 20px 0 0 10px;
+}
+
+.img{
+    width: 20%;
+}
+
+.img:hover{
+    animation: myAnimation 2s ease 1s 3 alternate forwards;
+}
+
+@keyframes myAnimation{
+    100%{
+        transform : rotate(360deg)
+    }
+}
+
+footer{
+    text-align: center;
+}
