@@ -66,6 +66,8 @@ header nav ul li ul{
 
 header nav ul li.active ul{
     display: block;
+    position: absolute;
+    text-align: center;
 }
 
 header nav ul li ul li{
