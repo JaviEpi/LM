@@ -194,17 +194,33 @@ nav ul li a .quinto{
     border-radius: 0 1rem 1rem 0;
 }
 
-@media screen and (max-width:320px){
-    body{
-        width: 100%;
-        height: 100vh;
-        background: url(../img/header_bg4.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center;
+@media (max-width: 560px) {
+    .contenido::after {
+    height: 50vh;
     }
-    .imagen{
-        width: 25%;
+
+    
+    .contenido {
+      top: 5%;
+      margin-top: 5px;
+    }
+  
+    .contenido .logo {
+      height: 140px;
+      width: 140px;
+    }
+    .contenido .text{
+        display: none;
+    }
+    .contenido .tittle{
+        display: none;
     }
 }
-
+@media(max-height: 500px){
+    .header-content .tittle, .header-content .text{
+        display: none;
+    }
+    .header-content{
+        top: 0%;
+    }
+}
