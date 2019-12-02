@@ -194,3 +194,16 @@ nav ul li a .quinto{
     border-radius: 0 1rem 1rem 0;
 }
 
+@media screen and (max-width:320px){
+    body{
+        width: 100%;
+        background: url(../img/header_bg4.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .imagen{
+        width: 25%;
+    }
+}
+
