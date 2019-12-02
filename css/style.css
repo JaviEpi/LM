@@ -209,12 +209,11 @@ nav ul li a .quinto{
       height: 140px;
       width: 140px;
     }
-    .contenido .text{
+    .contenido .tittle, .contenido .text{
         display: none;
     }
-    .contenido .tittle{
-        display: none;
-    }
+    
+
 }
 @media(max-height: 500px){
     .header-content .tittle, .header-content .text{
