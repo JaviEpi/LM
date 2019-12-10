@@ -11,30 +11,20 @@
     <script src="https://kit.fontawesome.com/6b75c93575.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header-nav">
-        <nav>
-            <ul id="nav">
-                <li><a href="/index.html"><span class="sexto"><i class="icon fas fa-home"></i></span> INICIO</a></li>
-                <li><a href="/novedades/index.html"><span class="primero"><i class="icon fas fa-newspaper"></i></span> NOVEDADES</a></li>
-                <li><a href="/portal/index.html" target="_blank"><span class="segundo"><i class="icon fas fa-suitcase"></i></span> PROYECTOS</a>
-                    <ul>
-                        <li><a href="/portal/cordoba_patrimonio/index.html" target="_blank">Turismo Córdoba</a></li>
-                    </ul>
-                </li>
-                <li><a href="/practicas/index.html" target="_blank"><span class="tercero"><i class="icon far fa-file-alt"></i></span> PRÁCTICAS</a>
-                    <ul>
-                        <li><a href="/practicas/tema_1/index.html" target="_blank">Tema 1</a></li>
-                        <li><a href="/practicas/tema_2/index.html" target="_blank">Tema 2</a></li>
-                        <li><a href="/practicas/tema_3/index.html" target="_blank">Tema 3</a></li>
-                        <li><a href="/practicas/tema_4/index.html" target="_blank">Tema 4</a></li>
-                         <!--<li><a href="">TEMA 5</a></li>-->
-                    </ul>
-                </li>
-                <li><a href="/contacto/index.html"><span class="cuarto"><i class="icon fas fa-envelope"></i></span> CONTACTO</a></li>
-                <li><a href="/sobre_mi/index.html"><span class="quinto"><i class="icon fas fa-address-card"></i></span> SOBRE MÍ</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">JaviEpi</label>
+        <ul>
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="portal/index.html" target="_blank" class="active">Proyectos</a></li>
+            <li><a href="practicas/index.html" target="_blank" class="active">Prácticas</a></li>
+            <li><a href="contacto/index.html" target="_blank" class="active">Contacto</a></li>
+            <li><a href="#datos" class="active">Sobre mí</a></li>
+        </ul>
+    </nav>
 
     <section>
         <form name="formulario" action="mailto:a19eploja@iesgrancapitan.org" method="get">
