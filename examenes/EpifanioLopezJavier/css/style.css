@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    background: #333;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom:10px ;
+    color: #fff;
+}
+h2{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+nav{
+    background: #333;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: #fff;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul  li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.active:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+.imagen{
+    position: absolute;
+    animation-direction: reverse;
+    z-index: 1;
+    top: 10%;
+    left: 50%;
+    margin-top: 220px;
+    margin-left: -170px;
+    text-align: center;
+    width: 350px;
+    transition: all 1000ms;
+}
+img{
+    height: 110px;
+    width: 140px;
+}
+section{
+    background: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 34px;
+
+}
+.rrss{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 5px;
+     
+}
+.rrss a{
+    color: #fff;
+    font-size: 13px;
+}
+.rrss a i{
+    color: #fff;
+}
+footer{
+    padding: 0.5rem;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+
+}
+footer p{
+    margin: 0;
+}
