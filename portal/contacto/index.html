@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conatcto</title>
+    <!--Link CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Link iconos-->
+    <script src="https://kit.fontawesome.com/6b75c93575.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">PORTAL</label>
+        <ul>
+            <li><a href="/portal/cordoba_patrimonio/index.html" target="_blank" class="active">Turismo Córdoba</a></li>
+            <li><a href="#" class="active">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <form name="formulario" action="mailto:a19eploja@iesgrancapitan.org" method="get">
+            <h2>CONTACTO</h2>
+            <label>Nombre: <input type="text" name="Nombre" maxlength="70" placeholder="Nombre"></label>
+            <label>Correo: <input type="email" name="correo" placeholder="Correo"></label>
+            <label>Telefono: <input type="tel" name="telefono" placeholder="Telefono"></label>
+            <label>Mensaje: <textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea></label>
+            <input type="submit" value="Enviar" id="boton" maxlength="240">
+        </form>
+      </section>
+</body>
+</html>
