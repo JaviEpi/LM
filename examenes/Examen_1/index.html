@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lenguaje de Marcas</title>
+    <!--link css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header-nav">
+        <nav>
+            <ul id="nav">
+                <li><a href="#ejercicio1">EJERCICIO 1</a></li>
+                <li><a href="#ejercicio2">EJERCICIO 2</a></li>
+                <li><a href="#ejercicio3">EJERCICIO 3</a></li>
+                <li><a href="#ejercicio4">EJERCICIO 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="ejercicios">
+        <section id="ejercicio1">
+            <h2>Ejercicio 1</h2>
+            <img src="img/sistemasolar.jpg" usemap="#mapa">
+            <map name="mapa">
+                <area target="_blank" alt="Sol" title="Sol" href="https://es.wikipedia.org/wiki/Sol" coords="23,248,71,292" shape="rect">
+                <area target="_blank" alt="Mercurio Planeta" title="Mercurio Planeta" href="https://es.wikipedia.org/wiki/Mercurio_(planeta)" coords="151,221,170,309,145,315,126,232,137,227" shape="poly">
+                <area target="_blank" alt="Venus" title="Venus" href="https://es.wikipedia.org/wiki/Venus_(planeta)" coords="162,220,181,211,198,275,178,281,171,254" shape="poly">
+                <area target="_blank" alt="Tierra" title="Tierra" href="https://es.wikipedia.org/wiki/Tierra" coords="214,256,238,252,222,187,194,193,208,238" shape="poly">
+                <area target="_blank" alt="Marte" title="Marte" href="https://es.wikipedia.org/wiki/Marte_(planeta)" coords="233,192,254,184,272,248,252,254" shape="poly">
+                <area target="_blank" alt="Saturno" title="Saturno" href="https://es.wikipedia.org/wiki/Saturno_(planeta)" coords="538,112,569,105,588,180,557,187" shape="poly">
+            </map>
+        </section>
+        <section id="ejercicio2">
+            <h2>Ejercicio 2</h2>
+            <p>Tecnologías web:</p>
+            <dl>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets</dd>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+                <dt>W3C</dt>
+                <dd>World Wide web Consortium</dd>
+            </dl>
+        </section>
+        <section id="ejercicio3">
+            <h2>Ejercicio 3</h2>
+            <table>
+                <table border="1">
+                <tr>
+                    <td colspan="2"></td>
+                    <td colspan="2">Mafalda</td>
+                    <td colspan="2">Mortadelo</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Fecha</td>
+                    <td colspan="1">Entrada</td>
+                    <td colspan="1">Salida</td>
+                    <td colspan="1">Entrada</td>
+                    <td colspan="1">Salida</td>
+                </tr>
+                <tr>
+                    <td colspan="2">15/10</td>
+                    <td colspan="1">8:00</td>
+                    <td colspan="1">15:00</td>
+                    <td colspan="1">10:00</td>
+                    <td colspan="1">12:00</td>
+                </tr>
+                <tr>
+                    <td colspan="2">16/10</td>
+                    <td colspan="1">8:00</td>
+                    <td colspan="1">15:00</td>
+                    <td colspan="1">10:00</td>
+                    <td colspan="1">12:00</td>
+                </tr>
+                <tr>
+                        <td colspan="2">17/10</td>
+                        <td colspan="1">8:00</td>
+                        <td colspan="1">15:00</td>
+                        <td colspan="1">10:00</td>
+                        <td colspan="1">12:00</td>
+                </tr>
+                <tr>
+                    <td colspan="2">18/10</td>
+                    <td colspan="1">8:00</td>
+                    <td colspan="1">15:00</td>
+                    <td colspan="1">10:00</td>
+                    <td colspan="1">12:00</td>
+                </tr>
+                <tr>
+                    <td colspan="2">19/10</td>
+                    <td colspan="1">8:00</td>
+                    <td colspan="1">15:00</td>
+                    <td colspan="1">10:00</td>
+                    <td colspan="1">12:00</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Importe Horas</td>
+                    <td colspan="2">250€</td>
+                    <td colspan="2">325€</td>
+                </tr>
+                
+            </table>
+        </section>
+        <section id="ejercicio4">
+            <h2>Ejercicio 4</h2>
+            <section>
+                
+                <form class="formulario-p"  name="Información principal" action="mailto:a19eploja@iesgrancapitan.org">
+                    <h4>Informacion principal</h4>
+                    <input type="text" name="Nombre" placeholder="Nombre" maxlength="20"><br>
+                    <input type="text" name="Apellidos" placeholder="Apellidos" maxlength="70"><br>
+                    
+                    <label>Grupo Edad:<br>
+                        <input type="radio" name="gender" value="male" checked> 0-30
+                        <input type="radio" name="gender" value="female"> 31-60
+                        <input type="radio" name="gender" value="other"> 61-100
+                    </label>
+                    
+                </form>
+                <form class="formulario-a"  name="Información secundaria" action="">
+                    <h4>Informacion adicional</h4><br>
+                    <label>Biografía:<br>
+                        <textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea><br>
+                        <label >Imagen: <input type="submit" value="Seleccionar imagen"></label>
+                    </label>
+                    <form class="formulario-i"  name="Interes" action="">
+                        <h5>Interes</h5>
+                        <datalist id="listado">
+                                <option value="1" label="Deportes">
+                                <option value="2" label="Natural">
+                                <option value="3" label="Leer">
+                                <option value="4" label="Informatica">
+                        </datalist>
+                        <label for="">Hobbies: <input type="text" list="listado"></label><br>   
+                        <label>Red Social favorita:
+                            <select name="hobbies" id="listado">
+                                <option value="1">Facebook</option>
+                                <option value="2">Twitter</option>
+                                <option value="3">Instagram</option>
+                                <option value="4">Linkedin</option>
+                            </select>
+                        </label>
+                    </form>
+                    
+                </form>
+                
+            </section>
+        </section>
+    </main>
+    <footer>
+        <address>Javier Epifanio López | 1º DAW</address>
+    </footer>
+</body>
+</html>

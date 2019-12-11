@@ -1,0 +1,15 @@
+.formulario-p{
+    border: 1px solid black;
+    width: 30%;
+    padding: 10px;
+}
+
+.formulario-a{
+    border: 1px solid black;
+    width: 30%;
+    padding: 10px;
+}
+
+ul li{
+    list-style: none;
+}
