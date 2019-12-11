@@ -71,6 +71,10 @@
   }
   aside{
     margin: 25px 10px auto;
+    color: #000;
+  }
+   
+  main aside ul li a{
     color: #fff;
   }
   
