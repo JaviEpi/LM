@@ -1,34 +1,62 @@
 *{
     font-family: sans-serif; 
     margin: 0;
+    text-decoration: none;
+    list-style: none;
     padding: 0; 
 }
-header, section, footer, aside, nav, article, hgroup{
-    display: block;
-}
-header{
-    font-size: 15px;
-    background: rgba(0, 0, 0, .9);
-    text-align: center;
-    color: #ffffff;
-}
+
 nav{
-    font-size: 12px;
-    padding: 10px;
-    text-align: center;
-    background:rgba(0, 0, 0, .9) ;
-    left: 0;
-    bottom: 0;
+    background: #333;
+    height: 80px;
     width: 100%;
 }
-nav li{
-    padding: 40px;
-    font-size: 13px;
-    list-style: none;
-    display: inline;
+
+label.logo{
+    color: #fff;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
 }
-nav a{
-    color: #ffffff;
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul  li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.active:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+
 }
 .ejercicios{
     margin: 10px;
