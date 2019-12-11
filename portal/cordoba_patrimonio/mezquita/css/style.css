@@ -25,7 +25,6 @@ nav ul{
   
 nav ul  li{
     display: inline-block;
-    
     line-height: 80px;
     margin: 0 5px;
   }
@@ -64,11 +63,43 @@ h2{
 }
 
 p{
-    margin: 0 0 10px 15px;
+    margin: 0 20px 10px 15px;
     font-size: 14px;
+    text-align: justify;
 }
 img{
     width: 500px;
     height: 300px;
     margin: 0 0  10px 15px;
 }
+
+.inicio {
+    margin: 5px 20px 10px 15px;
+}
+.inicio li{
+    list-style: none;
+}
+aside{
+    margin: 30px 20px 10px 15px;
+}
+aside ul li{
+    list-style: none;
+    padding: 3px;
+}
+
+.rrss{
+    text-align: center;
+}
+
+.rrss div ul li{
+    display: inline;
+}
+
+.rrss div ul li a{
+    color: #333;
+}
+
+#footer{
+    text-align: center;
+}
+
