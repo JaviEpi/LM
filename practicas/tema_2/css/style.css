@@ -67,3 +67,11 @@ nav ul li a{
     list-style: none;
     padding: 5px;
 }
+
+#footer{
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+}
