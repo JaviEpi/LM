@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav article aside"
+        "footer footer footer";
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 15% 1fr 15%;
+    grid-gap: 5px;
+    height: 100vw;
+    text-align: center;
+}
+header h1{
+    font-size: 17px;
+}
+nav h1, div h1, article h1{
+    font-size: 15px;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+header, footer, article, nav, div{
+    padding: 10px;
+    background: #fad390;
+}
+
+#header{
+    grid-area: header;
+}
+
+#article{
+    grid-area: article;
+}
+
+#nav{
+    grid-area: nav;
+}
+#aside{
+    grid-area: aside;
+}
+#footer{
+    grid-area: footer;
+}
