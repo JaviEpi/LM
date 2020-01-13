@@ -1,0 +1,21 @@
+*{
+    margin:2px;
+    padding: 2px;
+    font-family: sans-serif;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    border: 2px solid black;
+    text-decoration: none;
+    background: rgba(300, 20, 80, .6);
+    padding: 10px;
+    border-radius: 5px;
+}
