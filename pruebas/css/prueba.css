@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background:  rgba(51, 51, 51, .9);
+    color: #fff;
+    padding: 10px;
+    z-index: 2;
+}
+
+.logo img{
+    width: 10em;
+    height: 2.5em;
+}
+.navbar ul{
+    display: flex;
+    position: fixed;
+    right: 10px;
+    top:1em;    
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+}
+
+
+.active:hover{
+    background: #1b9bff;
+    transition: .5s;
+    border-radius: 3px;
+}
