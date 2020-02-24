@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#flex-container{
+  display: flex;
+  align-content: center;
+  padding: 15px;
+  background: #44bd32;
+  color: #fff;
+
+
+}
+
+#flex-container div{
+    padding: 5px;
+}
+
+#flex-container div a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn{
+    border-radius: 10px;
+    background: #fff;
+    padding: 5px;
+    color: #e74c3c;
+}
+.logo{
+    flex:1;
+}
+.inicio{
+    flex:1;
+}
+.productos{
+    flex:1;
+}
+
+.servicios{
+    flex: 7;
+}
+
+
+@media (max-width:800px){
+    #flex-container{
+        background: #333;
+        display: flex;
+    }
+}
