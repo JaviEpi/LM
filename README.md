@@ -1,3 +1,3 @@
 # Página JaviEpi | Web Design
 
-Página web utilizando HTML, CSS y un poco de JAVASCRIPT.
+Página web personal, donde también subo mis prácticas de Lenguaje de marcas.
