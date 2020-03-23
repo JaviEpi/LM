@@ -26,12 +26,12 @@ body{
 }
 .cabecera img{
     width: 20em;
-    height: 7em;
+    height: 5em;
 }
 .menu{
     border-top: 1px solid #333333;
     border-bottom: 1px solid #333333;
-    background: #ffffff;
+    background: #333333;
     padding: 5px 15px;
 }
 .menu li{
@@ -41,7 +41,7 @@ body{
     display: inline-block;
 }
 .menu a{
-    color: #333333;
+    color: #ffffff;
     text-decoration: none;
 }
 .menu a:hover{
@@ -49,16 +49,24 @@ body{
     text-decoration: none;
 }
 .seccion{
-    margin-left: 6em;
+    margin-left: 3em;
     width: 55em;
     float: left;
 }
 article{
     padding: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
+
 .parrafo{
     text-align: left;
+}
+
+.h2{
+    font-size: 15px;
+    text-align: justify;
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 article footer{
@@ -69,7 +77,8 @@ article footer{
 .columna{
     width: 10em;
     float: right;
-    margin-right: 4em;
+    margin-right: 3em;
+    margin-top: 6em;
 }
 .columna ul{
     list-style: none;
