@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+    <channel>
+        <tittle>LENGUAJE MARCAS: XML</tittle>
+            <item>
+                <tittle>EJERCICIO PERSONA.XML</tittle>
+                <link></link>
+                <description>Ejercicio realizado en casa de Personas.xml</description>
+            </item>
+        <tittle>LENGUAJE MARCAS: XML</tittle>
+            <item>
+                <tittle>EJERCICIO CICLO.XML</tittle>
+                <link></link>
+                <description>Ejercicio realizado en casa de Ciclo.xml</description>
+            </item>
+    </channel>
+</rss>
