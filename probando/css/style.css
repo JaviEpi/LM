@@ -178,7 +178,7 @@ nav .enlaces a:hover{
 }
 
 .content-card{
-  width: 45%;
+  width: 40%;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
   overflow: hidden;
   height: 400px;
@@ -202,4 +202,119 @@ nav .enlaces a:hover{
 
 .about{
   background: url(../img/teclado.jpg);
+  height: auto;
+}
+
+.practicas{
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.caja-practica>h4{
+  margin-bottom: var(--espacios);
+}
+
+.caja-practica>p{
+  text-align: center;
+}
+
+.botones-study{
+  overflow: hidden;
+}
+
+.botones-study li{
+  display: inline-block;
+  text-align: center;
+  margin-left: var(--espacios);
+  margin-bottom: var(--espacio-contenido);
+  padding: 6px 12px;
+  border: 1px solid var(--color1);
+  list-style: none;
+  color: var(--color1);
+}
+
+.botones-study li:hover{
+  background: var(--color1);
+  color: #fff;
+  cursor: pointer;
+}
+
+.botones-study .active{
+  background: var(--color1);
+  color: #fff;
+}
+
+.galeria-study{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.galeria-study .cont-study{
+  width: 31%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+  height: 300px;
+  margin-bottom: var(--espacio-contenido);
+}
+
+.img-study{
+  height: 90%;
+  width: 100%;
+}
+
+.img-study img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.textos-study{
+  height: 10%;
+}
+
+.textos-study h4{
+  line-height: 30px;
+  font-weight: 300;
+}
+
+/*FOOTER*/
+footer{
+  background: url(../img/teclado.jpg);
+}
+
+.marca-logo{
+  width: 30%;
+  margin: auto;
+  margin-bottom: var(--espacio-contenido);
+}
+
+.marca-logo img{
+  width: 100%;
+}
+
+.iconos{
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 100%;
+}
+.iconos a{
+  text-decoration: none;
+  margin-bottom: var(--espacio-contenido);
+}
+.iconos h3{
+  font-size: 15px;
+  color: #fff;
+}
+.fab{
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+}
+
+footer p{
+  margin-top: var(--espacio-contenido);
 }
