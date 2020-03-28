@@ -24,6 +24,20 @@ img{
   vertical-align: top;
 }
 /*Preload*/
+.hidden{
+  overflow: hidden;
+}
+
+.centrado{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #232323;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .lds-dual-ring {
   display: inline-block;
   width: 80px;
@@ -213,6 +227,11 @@ nav .enlaces a:hover{
   flex-wrap: wrap;
 }
 
+.caja-practica{
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
 .caja-practica>h4{
   margin-bottom: var(--espacios);
 }
@@ -253,7 +272,7 @@ nav .enlaces a:hover{
   justify-content: space-around;
 }
 
-.galeria-study .cont-study{
+.cont-study{
   width: 31%;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
   height: 300px;
@@ -317,4 +336,75 @@ footer{
 
 footer p{
   margin-top: var(--espacio-contenido);
+}
+
+@media screen and (max-width: 750px){
+  .nav2{
+    color:  #fff;
+  }
+
+  .icono{
+    display: block;
+    cursor: pointer;
+  }
+
+  .enlaces{
+    position: fixed;
+    top: 80px;
+    background: #2c3e50;
+    left: 0;
+    height: 100%;
+    transition: 1s;
+    width: 0;
+    overflow: hidden;
+  }
+
+  .enlaces a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    background: #34495e;
+    color: #fff;
+  }
+
+  .textos>h1{
+    font-size: 30px;
+  }
+  .textos>h2{
+    font-size: 17px;
+  }
+  .content-card{
+    margin-bottom: var(--margenes);
+  }
+
+  :root{
+    --margenes: 30px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  :root{
+    --espacios-contenido: 25px;
+  }
+
+  .content-card{
+    width: 90%;
+  }
+  .caja-practica{
+    width: 90%;
+    margin-bottom: var(--margenes);
+  }
+
+  .cont-study{
+    width: 85%;
+  }
+  .marca-logo{
+    width: 70%;
+  }
+
+  .iconos{
+    margin: auto;
+  }
 }
