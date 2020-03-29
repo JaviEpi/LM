@@ -85,7 +85,7 @@ nav{
 .nav1{
   background: transparent;
   height: 80px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .nav2{
@@ -138,7 +138,7 @@ nav .enlaces a:hover{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  color:#fff;
+  color: #ffffff;
   overflow: hidden;
   text-align: center;
 }
@@ -198,6 +198,10 @@ nav .enlaces a:hover{
   height: 400px;
 }
 
+.content-card:hover{
+  width: 41%;
+  height: 400px;
+}
 .proyecto{
   height: 80%;
 }
@@ -205,13 +209,19 @@ nav .enlaces a:hover{
 .content-card img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
+  background: gainsboro;
 }
 
 .texto-proyecto{
   height: 20%;
   width: 100%;
   padding: var(--espacios) 0;
+}
+
+.texto-proyecto a{
+  text-decoration: none;
+  color: black;
 }
 
 .about{
@@ -232,11 +242,16 @@ nav .enlaces a:hover{
   margin: auto;
   text-align: center;
 }
-.caja-practica>h4{
+.caja-practica a{
+  text-decoration: none; 
+  color: var(--color1);
+
+}
+.caja-practica h4{
   margin-bottom: var(--espacios);
 }
 
-.caja-practica>p{
+.caja-practica p{
   text-align: center;
 }
 
@@ -396,7 +411,10 @@ footer p{
     width: 90%;
     margin-bottom: var(--margenes);
   }
-
+  .content-card:hover{
+    width: 93%;
+    
+  }
   .cont-study{
     width: 85%;
   }

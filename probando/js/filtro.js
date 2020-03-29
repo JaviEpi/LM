@@ -46,7 +46,7 @@ $(function(){
     $('#enlace-contacto').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: contacto -100
+            scrollTop: contacto 
         },600);
     });
 
