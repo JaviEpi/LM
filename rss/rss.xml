@@ -7,11 +7,11 @@
                 <link>https://github.com/JaviEpi/XML/tree/master/Personas</link>
                 <description>Ejercicio realizado en casa de Personas.xml</description>
             </item>
-        <tittle>LENGUAJE MARCAS: HTML</tittle>
+        <tittle>LENGUAJE MARCAS: XML</tittle>
             <item>
-                <tittle>EJERCICIO POSICIONAMIENTO</tittle>
+                <tittle>EJERCICIO CICLO.XML</tittle>
                 <link>https://javiepi.github.io/practicas/tema_5/posicionamiento/index.html</link>
-                <description>Ejercicio realizado en clase posicionamiento</description>
+                <description>Ejercicio realizado en casa de Personas.xml</description>
             </item>
     </channel>
 </rss>
