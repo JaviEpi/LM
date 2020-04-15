@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="250mm" height="250mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 22168.72 22168.72"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:white}
+    .fil1 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="5897.81" y1="16160.95" x2="16285.8" y2="5772.97">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FF7A00"/>
+   <stop offset="0.25098" style="stop-opacity:1; stop-color:#FD7A02"/>
+   <stop offset="0.74902" style="stop-opacity:1; stop-color:#0456FB"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#0055FF"/>
+  </linearGradient>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1931507904976">
+   <circle class="fil0" cx="11084.36" cy="11084.36" r="11084.36"/>
+   <g>
+    <path class="fil1" d="M8603.88 15186.22c1877.91,1109.08 4337.15,856.83 5950.58,-756.59 1912.42,-1912.43 1912.42,-5012.91 0,-6925.33l-3462.67 -3462.67 -2576.27 2573.16 0 0c-953.56,-953.56 -953.56,-2509.1 0,-3462.67l2574.72 -2574.72 5195.54 5195.56c2868.47,2868.46 2868.59,7519.41 0,10387.99 -2868.52,2868.53 -7519.39,2868.59 -10387.98,0 -2868.52,-2868.53 -2868.52,-7519.46 0,-10387.99 896.78,896.77 1157.39,2143.44 671.53,3312.49 -585.48,1408.79 -484.31,3035.61 303.33,4369.31l3353.47 -3353.48 0.06 0.06c952.23,952.23 952.23,2510.31 0,3462.55l-1622.32 1622.32z"/>
+   </g>
+  </g>
+ </g>
+</svg>

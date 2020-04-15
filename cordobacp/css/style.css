@@ -5,9 +5,9 @@
   --fondo: #f2f2f2;
   --titulos: 25px;
   --subtitulos:15px;
-  --margenes: 60px;
+  --margenes: 70px;
   --espacios: 10px;
-  --espacio-contenido: 45px;
+  --espacio-contenido: 50px;
 }
 
 *{
@@ -23,57 +23,15 @@ body{
 img{
   vertical-align: top;
 }
-/*Preload*/
-.hidden{
-  overflow: hidden;
-}
 
-.centrado{
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background: #232323;
-  z-index: 100;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.lds-dual-ring {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-}
-.lds-dual-ring:after {
-  content: " ";
-  display: block;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
-  border-radius: 50%;
-  border: 6px solid #cef;
-  border-color: #cef transparent #cef transparent;
-  animation: lds-dual-ring 1.2s linear infinite;
-}
-@keyframes lds-dual-ring {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 /*HEADER*/
 header{
   width: 100%;
-  height: 600px;
-  background: linear-gradient(to bottom,
-  rgba(211,135,20,.6),
-  rgba(29,241,171,.6),
-  rgba(7,109,150,.45)
-  ), url(../img/web/fondo.jpg);
-  background-attachment: fixed;
+  height: 100vh;
+  background: url(../img/cordoba.jpg);
   background-position: center;
+  background-attachment: contain;
   background-size: cover;
 }
 /*NAV*/
@@ -83,7 +41,7 @@ nav{
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
 }
 .nav1{
-  background: transparent;
+  background: rgba(0, 0, 0, .3);
   height: 80px;
   color: #ffffff;
 }
@@ -122,8 +80,7 @@ nav .enlaces a:hover{
 }
 
 .logo, .logo img{
-  height: 40px;
-  width: 40px;
+  height: 60px;
 }
 
 .icono{
@@ -139,17 +96,17 @@ nav .enlaces a:hover{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
   overflow: hidden;
   text-align: center;
 }
 
 .textos>h1{
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .textos>h2{
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 300;
 }
 
@@ -186,101 +143,6 @@ nav .enlaces a:hover{
   margin-bottom: var(--espacio-contenido);
 }
 
-.card{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.content-card{
-  width: 31%;
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-  overflow: hidden;
-  height: 400px;
-}
-
-.content-card img:hover{
-  width: 61%;
-  height: 91%;
-}
-.proyecto{
-  height: 80%;
-}
-
-.content-card img{
-  width: 60%;
-  height: 90%;
-  object-fit: fill;
-}
-
-.texto-proyecto{
-  height: 20%;
-  width: 100%;
-  padding: var(--espacios) 0;
-}
-
-.texto-proyecto a{
-  text-decoration: none;
-  color: black;
-}
-
-.about{
-  background: url(../img/web/teclado.jpg);
-  height: auto;
-}
-
-.practicas{
-  display: flex;
-  color: #fff;
-  justify-content: space-between;
-  margin: auto;
-  flex-wrap: wrap;
-}
-
-.caja-practica{
-  width: 30%;
-  margin: auto;
-  text-align: center;
-}
-.caja-practica a{
-  text-decoration: none; 
-  color: var(--color1);
-
-}
-.caja-practica h4{
-  margin-bottom: var(--espacios);
-}
-
-.caja-practica p{
-  text-align: center;
-}
-
-.botones-study{
-  overflow: hidden;
-}
-
-.botones-study li{
-  display: inline-block;
-  text-align: center;
-  margin-left: var(--espacios);
-  margin-bottom: var(--espacio-contenido);
-  padding: 6px 12px;
-  border: 1px solid var(--color1);
-  list-style: none;
-  color: var(--color1);
-}
-
-.botones-study li:hover{
-  background: var(--color1);
-  color: #fff;
-  cursor: pointer;
-}
-
-.botones-study .active{
-  background: var(--color1);
-  color: #fff;
-}
-
 .galeria-study{
   display: flex;
   flex-wrap: wrap;
@@ -288,7 +150,7 @@ nav .enlaces a:hover{
 }
 
 .cont-study{
-  width: 31%;
+  width: 34%;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
   height: 300px;
   margin-bottom: var(--espacio-contenido);
@@ -316,7 +178,7 @@ nav .enlaces a:hover{
 
 /*FOOTER*/
 footer{
-  background: url(../img/web/teclado.jpg);
+  background: ;
 }
 
 .marca-logo{
@@ -341,12 +203,12 @@ footer{
 }
 .iconos h3{
   font-size: 15px;
-  color: #fff;
+  color: #000;
 }
 .fab, .fas{
   display: inline-block;
   font-size: 25px;
-  color: #fff;
+  color: blue;
 }
 
 footer p{
