@@ -127,6 +127,7 @@ hr{
 /*Galería*/
 .linea{
     border-top: 4px solid rgb(0, 129, 209);
+    margin-bottom: 20px;
 }
 
 .container-img{
