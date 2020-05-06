@@ -32,6 +32,7 @@ ul{
 .container{
     width: 85%;
     margin: auto;
+    margin-bottom: 25px;
 }
 
 /*Navegación*/
