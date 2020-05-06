@@ -5,7 +5,6 @@
 }
 
 body{
-    background: #f2f2f2;
     overflow-x: hidden;
     color: #232323;
     background-color: #f2f2f2;
@@ -32,7 +31,7 @@ ul{
 .container{
     width: 85%;
     margin: auto;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 /*Navegación*/
@@ -187,8 +186,7 @@ hr{
 }
 
 .footer-container ul li{
-    line-height: 2.2;
-    text-align: center;
+    line-height: 2;
 }
 
 .footer-container > ul > li > h3{
@@ -197,7 +195,7 @@ hr{
 }
 
 .footer-container ul li a{
-    color: #fff;
+    color: #ECECEC;
     font-size: 13px;
     text-decoration: underline;
 }
