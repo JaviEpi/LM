@@ -173,9 +173,9 @@ hr{
 
 /*Footer Links*/
 .footer-links{
-    background: #2f3640;
+    background: #202020;
     color: #fff;
-    padding: 35px 0;
+    padding: 25px 0;
 }
 
 .footer-container{
@@ -185,7 +185,7 @@ hr{
 }
 
 .footer-container ul li{
-    line-height: 2;
+    line-height: 1.8;
 }
 
 .footer-container > ul > li > h3{
