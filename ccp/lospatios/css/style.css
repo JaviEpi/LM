@@ -83,7 +83,8 @@ hr {
     width: 100%;
     margin: auto;
     margin-bottom: 30px;
-    background: url(../img/cordoba.jpg) no-repeat center center/cover;
+    background: url(../../img/cordoba.jpg) no-repeat center center/cover;
+    object-fit: cover;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -91,6 +92,11 @@ hr {
     justify-content: flex-end;
     height: 550px;
 
+}
+.showcase p{
+    color: #fff;
+    margin: 10px 0;
+    font-weight: 600;
 }
 
 .btn {
@@ -113,30 +119,17 @@ hr {
     font-size: 22px;
 }
 
-/*News Cards*/
-.news-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 25px;
-    margin-bottom: 100px;
+/*News*/
+.news p{
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 35px;
 }
 
-.news-card h3 {
-    font-size: 14px;
-    border-bottom: 1px solid #262626;
+.news h2{
+    font-size: 18px;
     margin-bottom: 10px;
 }
-
-.news-card img {
-    width: 100%;
-    height: 190px;
-    object-fit: cover;
-}
-
-.leer-mas:hover{
-    color:  rgb(0, 129, 209);
-}
-
 /*Galería*/
 .linea {
     border-top: 4px solid rgb(0, 129, 209);
@@ -250,9 +243,11 @@ footer {
         padding: 20px;
         font-size: 14px;
     }
+    
     .menu-btn{
         display: block;
-    }  
+    }
+
     .nav-main ul.nav-menu.show{
         transform: translateX(-20px);
         transition: transform .6s ease-in-out;
