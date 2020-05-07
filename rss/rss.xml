@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss>
     <channel>
-        <tittle>LENGUAJE MARCAS: XML</tittle>
-            <item>
-                <tittle>EJERCICIO PERSONA.XML</tittle>
-                <link>https://github.com/JaviEpi/XML/tree/master/Personas</link>
-                <description>Ejercicio realizado en casa de Personas.xml</description>
-            </item>
-        <tittle>LENGUAJE MARCAS: XML</tittle>
-            <item>
-                <tittle>EJERCICIO CICLO.XML</tittle>
-                <link>https://javiepi.github.io/practicas/tema_5/posicionamiento/index.html</link>
-                <description>Ejercicio realizado en casa de Personas.xml</description>
-            </item>
+        <title>Javier Epifanio López RSS</title>
+        <link>https://javiepi.github.io/</link>
+        <description>Ejercicios realizados en el módulo de Lenguaje de Marcas 2019/2020</description>
+        <item>
+            <title>Todos los ejercicios realizados de XML, XSD, XPath y XSL</title>
+            <link>https://github.com/JaviEpi/XML</link>
+            <description>En este repositorio se encuentran todas las prácticas de XML, XSD, XPath y XSL realizadas.</description>
+        </item>
+        <item>
+            <title>Todos los ejercicios de XML</title>
+            <link>https://github.com/JaviEpi/XML/tree/master/XML</link>
+            <description>En este repositorio se encuentran todas las prácticas de XML realizadas.</description>
+        </item>
+        <item>
+            <title>Ejercicio XML y XSD Bingo</title>
+            <link>https://github.com/JaviEpi/XML/tree/master/XML/Bingo</link>
+            <description>Realización del ejercicio Bingo XML y XSD</description>
+        </item>
+        <item>
+            <title>Ejercicio XML y XSD Ciclo</title>
+            <link>https://github.com/JaviEpi/XML/tree/master/XML/Ciclo</link>
+            <description>Realización del ejercicio Ciclo XML y XSD</description>
+        </item>
+        <item>
+            <title>Ejercicio XML Fútbol</title>
+            <link>https://github.com/JaviEpi/XML/tree/master/XML/Fútbol</link>
+            <description>Realización del los ejercicios Fútbol XML</description>
+        </item>
+        <item>
+            <title></title>
+            <link></link>
+            <description></description>
+        </item>
+        <item>
+            <title></title>
+            <link></link>
+            <description></description>
+        </item>
+        <item>
+            <title></title>
+            <link></link>
+            <description></description>
+        </item>
+        <item>
+            <title></title>
+            <link></link>
+            <description></description>
+        </item>
+        <item>
+            <title></title>
+            <link></link>
+            <description></description>
+        </item>
+        <item>
+            <title></title>
+            <link></link>
+            <description></description>
+        </item>
     </channel>
 </rss>
