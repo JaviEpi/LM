@@ -40,24 +40,49 @@
             <description>Realización del los ejercicios Personas XML</description>
         </item>
         <item>
-            <title></title>
-            <link></link>
-            <description></description>
+            <title>Ejercicio XML Álbumes</title>
+            <link>https://github.com/JaviEpi/XML/tree/master/XML/Álbumes</link>
+            <description>Realización del los ejercicios Álbumes XML</description>
         </item>
         <item>
-            <title></title>
-            <link></link>
-            <description></description>
+            <title>Ejercicio XPath Libros</title>
+            <link>https://github.com/JaviEpi/XML/blob/master/XPath/Libros.xml</link>
+            <description>Realización del ejercicio Libros XPath</description>
         </item>
         <item>
-            <title></title>
-            <link></link>
-            <description></description>
+            <title>Ejercicio XPath Empleados</title>
+            <link>https://github.com/JaviEpi/XML/blob/master/XPath/Empleados.xml</link>
+            <description>Realización del ejercicio Empleados XPath</description>
         </item>
         <item>
-            <title></title>
-            <link></link>
-            <description></description>
+            <title>Ejercicio XSL Bob Dylan</title>
+            <link>https://github.com/JaviEpi/XML/tree/master/XSL/Bob%20Dylan</link>
+            <description>Realización del ejercicio Bob Dylan XSL</description>
+        </item>
+        <item>
+            <title>Ejercicio XSL Discos</title>
+            <link>https://github.com/JaviEpi/XML/tree/master/XSL/Discos</link>
+            <description>Realización del ejercicio Bob Dylan XSL</description>
+        </item>
+        <item>
+            <title>Ejercicio XSL Ejercicio 5 Propuesto en clase</title>
+            <link>https://github.com/JaviEpi/XML/tree/master/XSL/Ejercicio%205</link>
+            <description>Realización del ejercicio 5 XSL, propuesto en clase</description>
+        </item>
+        <item>
+            <title>Examen XML</title>
+            <link>https://github.com/JaviEpi/XML/tree/master/Examen</link>
+            <description>Examen corregido de XML</description>
+        </item>
+        <item>
+            <title>Examen XML Parte 1</title>
+            <link>https://github.com/JaviEpi/XML/blob/master/Examen/Ejercicio%20DTD/examen.xml</link>
+            <description>Examen corregido de la parte 1 (DTD)</description>
+        </item>
+        <item>
+            <title>Examen XML Parte 2</title>
+            <link>https://github.com/JaviEpi/XML/tree/master/Examen/Ejercicio%20XSD</link>
+            <description>Examen corregido de la parte 2 (XSD)</description>
         </item>
     </channel>
 </rss>
