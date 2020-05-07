@@ -1,0 +1,21 @@
+Falta <?xml...>, <!DOCTYPE html...> y el resto de contenido de la etiqueta <html>
+
+Etiqueta <title> no cerrada.
+
+Etiqueta inicio <body> incorrecta.
+
+Etiqueta cierre </body> en mitad del documento.
+
+Etiqueta <b> no cerrada.
+
+Etiqueta <i> no tiene contenido. Ahora tiene "tu estancia".
+
+Hay que meter algunas etiquetas entre <p>
+
+Color mal especificado, hay un espacio, y además tanto como el color como el resto de atributos no estan entrecomillados.
+
+Las etiquetas <font> y <u> no son válidas, hay que usar CSS como alternativa.
+
+La URL del validador tampoco está entrecomillada.
+
+Etiqueta <html> mal cerrada.
