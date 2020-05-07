@@ -246,6 +246,9 @@ footer {
         padding: 20px;
         font-size: 14px;
     }
+    .menu-btn{
+        display: block;
+    }  
     .nav-main ul.nav-menu.show{
         transform: translateX(-20px);
         transition: transform .6s ease-in-out;
