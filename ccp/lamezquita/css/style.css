@@ -83,7 +83,7 @@ hr {
     width: 100%;
     margin: auto;
     margin-bottom: 30px;
-    background: url(../../img/cordoba.jpg) no-repeat center center/cover;
+    background: url(/ccp/img/mezquita2.jpg) no-repeat center center/cover;
     object-fit: cover;
     padding: 50px;
     display: flex;
