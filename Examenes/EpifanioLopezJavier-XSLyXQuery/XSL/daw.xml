@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="1DAW.xsl"?>
+<informatica>
+<cursos>
+    <curso id ="1DAW">
+	    <horario>
+          <lunes>
+              <primera>LM</primera>
+              <segunda>LM</segunda>
+              <tercera>L3</tercera>
+              <cuarta>L4</cuarta>
+              <quinta>L5</quinta>
+              <sexta>L6</sexta>
+          </lunes>
+          <martes>
+          <primera>M1</primera>
+              <segunda>M2</segunda>
+              <tercera>M3</tercera>
+              <cuarta>M4</cuarta>
+              <quinta>M5</quinta>
+              <sexta>M6</sexta>
+          </martes>
+          <miercoles>
+          <primera>X1</primera>
+              <segunda>X2</segunda>
+              <tercera>X3</tercera>
+              <cuarta>LM</cuarta>
+              <quinta>LM</quinta>
+              <sexta>X6</sexta>
+          </miercoles>
+          <jueves>
+          <primera>J1</primera>
+              <segunda>J2</segunda>
+              <tercera>J3</tercera>
+              <cuarta>J4</cuarta>
+              <quinta>J5</quinta>
+              <sexta>J6</sexta>
+          </jueves>
+          <viernes>
+          <primera>V1</primera>
+              <segunda>V2</segunda>
+              <tercera>V3</tercera>
+              <cuarta>V4</cuarta>
+              <quinta>V5</quinta>
+              <sexta>V6</sexta>
+          </viernes>
+		</horario>
+	</curso>
+	 <curso id ="1ASIR">
+	    <horario>
+          <lunes>
+              <primera>L1</primera>
+              <segunda>L2</segunda>
+              <tercera>L3</tercera>
+              <cuarta>L4</cuarta>
+              <quinta>L5</quinta>
+              <sexta>L6</sexta>
+          </lunes>
+          <martes>
+          <primera>M1</primera>
+              <segunda>M2</segunda>
+              <tercera>M3</tercera>
+              <cuarta>M4</cuarta>
+              <quinta>M5</quinta>
+              <sexta>M6</sexta>
+          </martes>
+          <miercoles>
+          <primera>X1</primera>
+              <segunda>X2</segunda>
+              <tercera>X3</tercera>
+              <cuarta>X4</cuarta>
+              <quinta>X5</quinta>
+              <sexta>X6</sexta>
+          </miercoles>
+          <jueves>
+          <primera>LM</primera>
+              <segunda>LM</segunda>
+              <tercera>J3</tercera>
+              <cuarta>J4</cuarta>
+              <quinta>J5</quinta>
+              <sexta>J6</sexta>
+          </jueves>
+          <viernes>
+          <primera>V1</primera>
+              <segunda>V2</segunda>
+              <tercera>V3</tercera>
+              <cuarta>V4</cuarta>
+              <quinta>LM</quinta>
+              <sexta>LM</sexta>
+          </viernes>
+		</horario>
+	</curso>
+</cursos>
+</informatica>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="eje5.xsl"?>
+<centro_medico nombre="Clínica Granada" web="www.clinicagranada.es">
+      <pacientes>
+        <paciente cod_paciente="p0001">
+            <nombre>Mafalda</nombre>
+			<apellidos>De Quino</apellidos>
+            <comp_aseguradora>Adeslas</comp_aseguradora>
+            <sexo>Mujer</sexo>
+            <primera_visita>2016-02-19</primera_visita>
+            <consultas>
+                <consulta cod_consulta="c01" fecha="2018-02-19">
+                    <descripcion>Consulta rutinaria de vacunas.</descripcion>
+                    <medico codigo="CH001">
+                        <nombre>Enrique López</nombre>
+                    </medico>
+                    <importe moneda="€">150</importe>
+                </consulta>
+                <consulta cod_consulta="c02" fecha="2018-04-19">
+                    <descripcion>Brazo derecho hinchado.</descripcion>
+                    <medico codigo="CH001">
+                        <nombre>Enrique López</nombre>
+                    </medico>
+                    <importe moneda="€">150</importe>
+                </consulta>
+            </consultas>
+        </paciente>
+        <paciente cod_paciente="p0002">
+            <nombre>Manolo</nombre>
+			<apellidos>González</apellidos>
+            <comp_aseguradora>Sanitas</comp_aseguradora>
+            <sexo>Hombre</sexo>
+            <primera_visita>2016-06-12</primera_visita>
+            <consultas>
+                <consulta cod_consulta="c01" fecha="2017-02-19">
+                    <descripcion>Consulta rutinaria de vacunas.</descripcion>
+                    <medico codigo="PE001">
+                        <nombre>Luisa Pérez</nombre>
+                    </medico>
+                    <importe moneda="€">200</importe>
+                </consulta>
+                <consulta cod_consulta="c02" fecha="2017-10-19">
+                    <descripcion>Dolor de cabeza</descripcion>
+                    <medico codigo="PE002">
+                        <nombre>Juan Pérez</nombre>
+                    </medico>
+                    <importe moneda="€">150</importe>
+                </consulta>
+            </consultas>
+        </paciente>
+        <paciente cod_paciente="p0003">
+            <nombre>Bob</nombre>
+			<apellidos>Silvestre</apellidos>
+            <comp_aseguradora>Adeslas</comp_aseguradora>
+            <sexo>Hombre</sexo>
+            <primera_visita>2018-12-19</primera_visita>
+            <consultas>
+                <consulta cod_consulta="c01" fecha="2019-01-01">
+                    <descripcion>Consulta rutinaria de vacunas.</descripcion>
+                    <medico codigo="CH002">
+                        <nombre>Ana Suárez</nombre>
+                    </medico>
+                    <importe moneda="€">200</importe>
+                </consulta>
+                <consulta cod_consulta="c02" fecha="2019-04-19">
+                    <descripcion>Otitis.</descripcion>
+                    <medico codigo="CH001">
+                        <nombre>Enrique López</nombre>
+                    </medico>
+                    <importe moneda="€">350</importe>
+                </consulta>
+            </consultas>
+        </paciente>
+        <paciente cod_paciente="p0004">
+            <nombre>Estrella</nombre>
+			<apellidos>Pérez</apellidos>
+            <comp_aseguradora>Asisas</comp_aseguradora>
+            <sexo>Mujer</sexo>
+            <primera_visita>2018-12-21</primera_visita>
+            <consultas>
+                <consulta cod_consulta="c01" fecha="2018-02-19">
+                    <descripcion>Consulta rutinaria de vacunas.</descripcion>
+                    <medico codigo="PE001">
+                        <nombre>Luisa Pérez</nombre>
+                    </medico>
+                    <importe moneda="€">200</importe>
+                </consulta>
+                <consulta cod_consulta="c02" fecha="2018-10-19">
+                    <descripcion>Quemadura mano derecha.</descripcion>
+                    <medico codigo="PE002">
+                        <nombre>Juan Pérez</nombre>
+                    </medico>
+                    <importe moneda="€">150</importe>
+                </consulta>
+            </consultas>
+        </paciente>
+    </pacientes>
+</centro_medico>
