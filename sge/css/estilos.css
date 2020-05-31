@@ -179,7 +179,7 @@ footer{
     overflow: hidden;
 }
 .marca-logo{
-    width: 30%;
+    width: 20%;
     margin: auto;
     margin-bottom: 45px;
   }
@@ -199,17 +199,12 @@ footer{
 
 .content-foo{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.content-foo h4{
-    color: #fff;
-    border-bottom: 3px solid #335EFF;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
 
-.content-foo p, a{
+
+.content-foo a{
     color: #ccc;
     text-decoration: none;
 }
