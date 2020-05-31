@@ -164,6 +164,9 @@ main .sobre-nosotros{
 .servicio-ind h3{
     margin: 10px 0;
 }
+.servicio-ind a{
+    color: #000;
+}
 
 .servicio-ind p{
     font-weight: 300;
@@ -211,7 +214,7 @@ footer{
 
 .titulo-final{
     text-align: center;
-    font-size: 11px;
+    font-size: 12px;
     margin: 20px 0 0 0;
     color: #9e9797;
 }
@@ -350,6 +353,6 @@ footer{
     }
 
     .titulo-final{
-        font-size: 20px;
+        font-size: 12px;
     }
 }
