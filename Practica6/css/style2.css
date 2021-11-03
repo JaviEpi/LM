@@ -83,7 +83,7 @@ main section h2{
 }
 
 main section article{
-    margin: 2em 1em 4em 1em;
+    margin: 2em 1.2em 4em 1.2em;
 }
 
 main section article header{
@@ -97,7 +97,7 @@ main section article header{
 aside{
     padding: 1%;
     width: 15%;
-    margin-top: 2.4%;
+    margin-top: 2.5%;
 }
 
 aside section{
