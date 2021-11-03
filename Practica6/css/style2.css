@@ -68,10 +68,8 @@ main{
 
 main section{
     padding: 1% 2%;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-bottom: 7%;
-    background-color: #dee2e6;
+    margin: 5% 1% 4% 20%;
+    background-color: #0080ff;
     border-radius: 10px;
 }
 
@@ -101,12 +99,12 @@ main section article div{
 aside{
     padding: 1%;
     width: 15%;
-    margin: 2.8% 7%;
+    margin-top: 2.4%;
 }
 
 aside section{
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 2rem;
     background-color: #dee2e6;
     min-height: 170px;
     border-radius: 10px;
@@ -142,5 +140,5 @@ footer{
 }
 
 footer h2{
-    font-size: 0.9  rem;
+    font-size: 0.9rem;
 }
