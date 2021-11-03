@@ -63,13 +63,13 @@ main, aside{
 main{
     min-height: 450px;
     padding: 0 1%;
-    width: 67%;    
+    width: 72%;    
 }
 
 main section{
     padding: 1% 2%;
-    margin: 5% 1% 4% 20%;
-    background-color: #0080ff;
+    margin: 5% 1% 4% 13%;
+    background-color: #dee2e6;
     border-radius: 10px;
 }
 
@@ -79,10 +79,11 @@ main section h2{
     color: #000000;
     padding: 1px;
     font-size: 22px;
+    margin-left: 1em;
 }
 
 main section article{
-    margin: 2em 0 4em;
+    margin: 2em 1em 4em 1em;
 }
 
 main section article header{
@@ -92,9 +93,6 @@ main section article header{
 }
 
 
-main section article div{
-    padding: 20px;
-}
 
 aside{
     padding: 1%;
