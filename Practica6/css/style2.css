@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
@@ -34,9 +34,10 @@ nav ul {
 
 nav ul li{
     display: inline-block;
-    width: 100px;
-    border-bottom: 1px solid #fff; 
-    padding: 0.3rem;
+    width: 150px;
+    margin-top: 20px;
+    border-bottom: 1px solud #fff; 
+    padding: 0.5rem;
     cursor: pointer;
 }
 
@@ -62,31 +63,34 @@ main, aside{
 main{
     min-height: 450px;
     padding: 0 1%;
-    width: 75%;    
+    width: 67%;    
 }
 
 main section{
     padding: 1% 2%;
-    margin: 20px 50px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 7%;
     background-color: #dee2e6;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 main section h2{
     font-family: 'Rancho', cursive;
-    text-align: center;
+    text-align: left;
     color: #000000;
     padding: 1px;
     font-size: 22px;
 }
 
 main section article{
-    margin: 2em;
+    margin: 2em 0 4em;
 }
 
 main section article header{
     padding: 4px;
     border-radius: 10px;
+    text-align: left;
 }
 
 
@@ -96,8 +100,8 @@ main section article div{
 
 aside{
     padding: 1%;
-    width: 18%;
-    margin: 5px 0px;
+    width: 15%;
+    margin: 2.8% 7%;
 }
 
 aside section{
@@ -105,7 +109,7 @@ aside section{
     margin-bottom: 15px;
     background-color: #dee2e6;
     min-height: 170px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 aside section h3{
@@ -119,9 +123,6 @@ aside section div a{
     color: #000;
 }
 
-aside section div a:hover{
-    color: #000;
-}
 aside section img{
     height: 110px;
     width: 190px;
@@ -134,12 +135,12 @@ aside section div{
 }
 
 footer{
-    background-color: #34BE82;
+    background-color: #343a40;
     text-align: center;
     color: #fff;
     padding: 10px;
 }
 
 footer h2{
-    font-size: 12px;
+    font-size: 0.9  rem;
 }
