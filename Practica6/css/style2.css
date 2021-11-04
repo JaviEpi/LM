@@ -36,12 +36,12 @@ nav ul li{
     display: inline-block;
     width: 150px;
     margin-top: 1.5em;
-    border-bottom: 1px solud #fff; 
+    border-bottom: 1px solid #fff; 
     padding: 0.5rem;
     cursor: pointer;
 }
 
-nav ul li:hover, a:hover{
+nav ul li:hover, nav ul li a:hover{
     border-bottom: 1px solid #ced4da;
     color: #ced4da;
 }
@@ -104,7 +104,7 @@ main section article p{
 aside{
     padding: 1%;
     width: 15%;
-    margin-top: 2.5%;
+    margin-top: 2.6%;
 }
 
 aside section{
@@ -126,9 +126,13 @@ aside section div a {
     color: #000;
 }
 
+aside > section > div > a:hover {
+    font-weight: bold;
+}
+
 aside section img{
-    height: 110px;
-    width: 190px;
+    height: 90px;
+    width: 90px;
     padding-bottom: 15px;
 }
 
