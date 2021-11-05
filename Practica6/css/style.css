@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#web{
+    margin: 0 auto;
+    width: 90%;
+}
+
+header{
+    background-color: #666;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+
+nav{
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 150px;
+    border: 1px outset #fff; 
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    box-shadow: 1px 2px 5px #B3E5FC;
+    transform: scale(1.01,1.01);
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+main, aside{
+    display: inline-block;
+    vertical-align: top;
+}
+
+main{
+    min-height: 450px;
+    padding: 0 1%;
+    width: 77%;    
+}
+
+main section{
+    padding: 1% 2%;
+    margin: 20px 0px;
+    box-shadow: 1px 1px 2px 1px rgba(128,128,128,.5);
+}
+
+main section h2{
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    color: #666;
+    padding: 1px;
+    font-size: 30px;
+}
+
+main section article{
+    margin: 2em;
+    border: 1px solid rgba(128,128,128,.5);
+    box-shadow: 1px 1px 2px 1px rgba(128,128,128,.5);
+}
+
+main section article header{
+    padding: 4px;
+}
+
+
+main section article div{
+    padding: 20px;
+}
+
+aside{
+    padding: 1%;
+    width: 19%;
+    margin: 0px 0;
+}
+
+aside section{
+    text-align: center;
+    margin: 2px;
+    background-color: #666;
+    min-height: 170px;
+    border-radius: 5px;
+}
+
+aside section h3{
+    padding: 15px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #fff;
+}
+
+aside section img{
+    height: 120px;
+    width: 120;
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color: #666;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* Borde cabecera*/
+/* div > header{
+    background: #F2F2F2;
+    color: #000000;
+} */
+
+/* H1 de la cabecera, alineación centrada, tamaño fuente y padding*/
+/* header > h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0.5em;
+} */
+
+/* Borde nav*/
+/* nav{
+    background: #F2F2F2;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333333;
+} */
+
+/* Lista centrada y un pequeño margen*/
+/* nav>ul{
+    text-align: center;
+} */
+
+/* Lo ponemos uno al lado del otro, margen, padding, tamaño fuente y borde*/
+/* nav>ul>li{
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 5px;
+    margin: 0.4rem;
+    font-size: 1rem;
+    background-color: #BBBBBB;
+    color: #000000;
+}
+
+#principal{
+    display: flex;
+    background: #FFFFFF;
+}
+main > section{
+    margin-top: 20px;
+}
+main > section >article{
+    margin: 20px;
+    border: 1px solid #333333;
+    background: #FCEFE4;
+} 
+
+main > section > article > h2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+aside{
+    padding: 20px;
+    width:25%;
+    text-align:center;
+}
+
+aside li{
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 1em;
+    padding: 5px;
+    font-size: 1.2rem;
+    border: 1px solid black;
+}
+
+footer > h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 10px;
+} */
